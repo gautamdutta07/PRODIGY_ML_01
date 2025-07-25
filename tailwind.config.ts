@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'ml-gradient': {
+					start: 'hsl(var(--ml-gradient-start))',
+					end: 'hsl(var(--ml-gradient-end))'
+				},
+				'ml-success': 'hsl(var(--ml-success))',
+				'ml-warning': 'hsl(var(--ml-warning))',
+				'ml-info': 'hsl(var(--ml-info))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
